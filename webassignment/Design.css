@@ -1,0 +1,35 @@
+.container {
+  height: 900px;
+  width: 100%;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #d1e7dd;
+  padding: 10px;
+  text-align: center;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 50px;
+  background-color: #fff3cd;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+.relative-centered {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  margin: 50px auto;
+  background-color: #cfe2ff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}

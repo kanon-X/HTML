@@ -1,0 +1,9 @@
+body {
+    background: 
+        linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),
+        url("paper.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: 40% auto;
+}
